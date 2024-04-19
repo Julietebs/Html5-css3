@@ -6,11 +6,11 @@
 }
 @font-face {
     font-family: bebas;
-    src: url(pacote-projeto-d010/__MACOSX/fontes/BebasNeue-Regular.otf) format('opentype');
+    src: url(fontes/BebasNeue-Regular.otf) format('opentype');
 }
 @font-face {
     font-family: android;
-    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+    src: url(fontes/idroid.otf) format('opentype');
 }
 body{
     background-color: #84E1AD;
