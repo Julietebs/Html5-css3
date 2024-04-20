@@ -12,6 +12,7 @@
     font-family: android;
     src: url(fontes/idroid.otf) format('opentype');
 }
+
 body{
     background-color: #84E1AD;
     margin: 0px, 100px;
@@ -21,12 +22,9 @@ header{
     text-align: center;
     background-image: linear-gradient(to bottom, #37c475, #2b985b , #2f2e2e);
     color: white;
-    padding: 3px;
-    margin: 0px;
-    min-width: 30px;
-    height: 150px;
-   
+
 }
+
 #principal{
     font-family: bebas;
     font-size: 3em;
@@ -36,16 +34,19 @@ header{
     
 }
 header>p{
-    width: 400px;
     text-align: center;
     color: rgba(255, 255, 255, 0.779);
+    padding: 10px;
+    width: 350px;
+    margin: auto;
 }
 nav{
-text-align: justify;
-font-size: 13px;
-margin-top: 20px;
-text-decoration: none;
-padding: 0px;
+    text-align: justify;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 main a{
     color:#1a5c38;
@@ -60,7 +61,7 @@ main a:hover{
 .nav{
     color: white; 
     padding: 10px;
-    margin-top: 20px;
+    padding-bottom: 0px;
     font-weight: bold;
 }
 .nav:hover{
@@ -69,14 +70,13 @@ main a:hover{
  font-weight: bold;
  border-radius: 3px;
  transition: 0.2s;
- 
 }
 
 main{
     display: block;
     background-color: white;
     text-align: justify;
-    padding: 20px;
+    padding: 15px;
     margin: auto;
     min-width: 320px;
     max-width: 1000px;
@@ -109,9 +109,11 @@ ul{
 h1{
     font-family: 'android';
     color: #1e7343;
+    font-size: 23px;
 }
 h2{
     font-family: 'android';
+    font-size: 20px;
     color: #2b985b;
     background-image: linear-gradient(to right, #abdec3 , #ffffff);
 }
