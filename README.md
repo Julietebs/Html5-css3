@@ -2,3 +2,7 @@
  HTML5 e CSS3 do Cursoemvideo
  
  <a href="https://julietebs.github.io/Html5-css3/Exercícios/ex006/Fanfic.html">Acessar link de página de fanfic.</a>
+ 
+ <a href="https://julietebs.github.io/Html5-css3/exercícios/desafios/projeto-cordel/index.html">Acessar link do prpjeto cordel.</a>
+
+
