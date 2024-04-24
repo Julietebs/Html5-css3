@@ -1,0 +1,13 @@
+@font-face{
+    font-family: 'Android';
+    src: url('i') format('opentype');
+    font-weight: normal;
+}
+
+:root{
+    --fonte: 'Android', cursive;
+}
+
+h1{
+    font-family: var(--fonte) ;
+}

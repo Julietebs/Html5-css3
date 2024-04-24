@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+    <style>
+        
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+    
+        @font-face {
+            font-family: HarryPotter;
+            src: url(fontes/HARRYP__.TTF) format('truetype');
+        }
+
+        audio{
+            display: none;
+        }
+        body{
+            background-color: black;
+            background-image: url(imagens/hogwarts.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            position: relative;
+            
+        }
+        header{
+            font-family: 'HarryPotter';
+            font-size: 5em;
+            border: 1px solid black;
+            border-radius: 20px;
+            background-color: white;
+            width: 500px;
+            text-align: center;
+            margin: auto;
+            margin-top: 30px;
+        }
+        section{
+            position: absolute;
+            background-color: white;
+            background-image: url(imagens/chapeu.png);
+            background-size: 100% 100%;
+            position: absolute;
+            height: 150px;
+            width: 150px;
+            left: 10%;
+            top: 90%;
+            margin: 10px;
+            transform: translate(-20%,30%);
+            border-radius: 50%;
+        }
+        h1{
+            text-align: center;
+            color: white;
+        }
+        main{
+            margin: auto;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <audio src="vin-harry-potter.mp3" controls autoplay loop></audio>
+<header>Welcome to Hogwarts</header>
+<main>
+    <section id="chapeu">
+        <p id="sobrechapeu">Chapéu seletor: <br>
+            Foi enfeitiçado pelos quatro fundadores da Escola de Magia e Bruxaria de Hogwarts. A ideia de enfeitiçar o chapéu partiu do pensamento de quem selecionaria os alunos para as casas quando eles não estivessem mais vivos, ideia genial não é mesmo?</p>
+
+    </section>
+        <h1> <p>Escolha sua casa:</p> </h1>
+        <img src="imagens/grifi-pq.jpg" alt="Símbolo da grifinória">
+        <img src="imagens/corvin-pq.jpg" alt="Símbolo da Corvinal"> <br>
+        <img src="imagens/lufluf-pq.jpg" alt="Símbolo da Lufa-lufa">
+        <img src="imagens/sonser-pq.jpg" alt="Símbolo da Sonserina">
+
+</main>
+    
+</body>
+</html>
