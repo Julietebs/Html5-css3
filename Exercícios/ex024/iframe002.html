@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento local no iframe</title>
+    <style>
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            font-size: 1.3em;
+        }
+        iframe{
+            width: 97vw;
+            height: 450px;
+            border: 2px solid black;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma Escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione similique commodi dolor illo, dolorum molestias ipsam quidem sed eligendi, voluptatem iusto totam porro optio! Non, corrupti sequi aliquid autem ducimus minima maiores laborum quod nesciunt incidunt vel facere magnam illo sed. Aspernatur dolorem rerum quis aliquid reprehenderit est autem architecto?</p>
+    <ul>
+        <a href="pagina1.html" target="frame">
+            <li>Página 1</li>
+        </a>
+        <a href="pagina2.html" target="frame">
+            <li>Página 2</li>
+        </a>
+        <a href="pagina3.html" target="frame">
+            <li>Página 3</li>
+        </a>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ea qui eveniet aperiam, atque illo, id quod magni quibusdam recusandae architecto eos excepturi pariatur facere, eum voluptates ex autem unde impedit odio voluptatem nam tenetur! Ab excepturi fugit aliquid sequi facere corporis sit quaerat laboriosam, libero sunt tenetur, illum sapiente saepe dolorem. Repellat sunt dignissimos explicabo maxime earum saepe deleniti.</p>
+
+    <iframe name="frame" srcdoc="<h1>Escolha uma opção"></iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione similique commodi dolor illo, dolorum molestias ipsam quidem sed eligendi, voluptatem iusto totam porro optio! Non, corrupti sequi aliquid autem ducimus minima maiores laborum quod nesciunt incidunt vel facere magnam illo sed. Aspernatur dolorem rerum quis aliquid reprehenderit est autem architecto?</p>
+    
+
+</body>
+</html>
