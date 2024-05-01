@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando formulário</title>
+    <style>
+        fieldset{
+            width: 177px;
+            background-color: rgb(255, 192, 216);
+        }
+        textarea{
+            resize: none;
+        }
+        ::placeholder{
+            color: rgba(0, 0, 0, 0.199);
+        }
+        #soma{
+            width: 177px;
+        }
+        legend{
+            font-size: 20px;
+        }
+        #isoma{
+            background-color: white;
+            border: 1px solid black;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Exemplo de formulários</h1>
+    <fieldset>
+        <legend>Sexo</legend> <br>
+        <input type="radio" name="sexo" id="mas"> <label for="mas"> Masculino </label> <br>
+       <input type="radio" name="sexo" id="fem" checked> <label for="fem"> Feminino</label>
+
+       <p>Alguma sugestão?</p>
+       <textarea name="sugestão" id="sug" cols="21" rows="5" maxlength="1000" placeholder="(Opcional)"></textarea>
+       <input type="submit" value="Enviar">
+       
+</fieldset>
+<fieldset id="soma">
+<legend>Soma</legend>
+
+<p>
+    <label for="in1">Número 1:</label> <input type="number" name="n1" id="in1" min="0" max="50" required oninput="isoma.innerHTML = Number(in2.value) + Number(in1.value)">
+</p>
+
+<p>
+    <label for="in2">Número 2:</label> <input type="number" name="n2" id="in2" min="0" max="50" required oninput="isoma.innerHTML = Number(in2.value) + Number(in1.value)">
+</p>
+<p>
+    <label for="isoma">Soma:</label>
+    <output id="isoma">0</output>
+</p>
+
+
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpar">
+</fieldset>
+<fieldset>
+    <legend>Idade</legend>
+    <p>
+        <label for="iano">Ano de nascimento:<input type="number" name="ano" id="iano" min="1910" oninput="calcIdade()"></label>
+    </p>
+
+     <p>
+            <label for="iia">Idade:</label>
+            <output id="iia">0</output>
+    </p>
+
+
+   
+</fieldset>
+<script>
+    function calcIdade(){
+        let atual = new Date().getFullYear()
+        iia.innerHTML= Number(atual) - Number(iano.value)
+    }
+</script>
+</body>
+</html>

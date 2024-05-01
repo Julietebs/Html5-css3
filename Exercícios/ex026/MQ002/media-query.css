@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* Demais mídias */
+/* TYPICAL DEVICES BREAKPOINTS PRA SABER TAMANHO DAS TELAS
+cel: 600px até 768px 
+tablet: 769 até 992px
+pc: 992 até 1200px
+grandes telas: > 1200px */
+
+@media screen and (min-width: 769px) and (max-width:992px){
+    body{
+        background-image:url(../imagens/back-tablet.jpg);
+    }
+    #phone{display: none;
+        
+    }
+    #tablet{display: block;
+        margin: auto;}
+    #print{display: none;}
+    #pc{display: none;}
+    #tv{display: none;}
+}
+
+@media screen and (min-width: 993px) and (max-width:1200px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    #phone{display: none;}
+    #tablet{display: none;}
+    #print{display: none;}
+    #pc{display: block;
+        margin: auto;
+    }
+    #tv{display: none;}
+}
+
+@media screen and (min-width: 1201px){
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    #phone{display: none;  }
+    #tablet{display: none;}
+    #print{display: none;}
+    #pc{display: none;}
+    #tv{display: block;
+    margin:auto}
+}
