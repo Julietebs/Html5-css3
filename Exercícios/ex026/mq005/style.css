@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* PRA MOBILE */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #949494;
+    text-align: center;
+    padding-top: 10px;
+
+
+}
+menu{
+    background-color: #949494;
+
+}
+menu a{
+    color: white;
+    text-decoration: none;
+    background-color: #575757;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border-top: 2px solid gray;
+}
+
+menu ul{
+    list-style-type: none;
+
+}
+menu a:hover{
+    background-color: #808080;
+    transition: 0.2s;
+}
+#burguer{
+    color: white;
+    background-color: #303030;
+    display: block;
+    width: 100vw;
+    margin: 0px;
+    padding: 8px;
+}
+#burguer:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+body{
+    background-color: #d3d3d3;
+}
+main{
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+h1{
+    color: black;
+    padding-bottom: 15px;
+    padding-top: 5px;
+
+
+}
+p{
+    margin-top: 10px;
+    text-indent: 20px;
+    text-align: justify;
+}
